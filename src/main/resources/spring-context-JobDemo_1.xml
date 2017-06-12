@@ -20,6 +20,8 @@
                 <property name="targetMethod">
                         <value>startJob</value>
                 </property>
+		<!--false表示等上一个任务执行完后再开启新的任务-->
+  		<property name="concurrent" value="false"/>
         </bean>
 
         <!-- 表达式-->
